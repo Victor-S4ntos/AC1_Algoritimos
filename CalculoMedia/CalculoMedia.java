@@ -26,7 +26,7 @@ public class CalculoMedia {
             System.out.println("Reprovado com média: " + media);
         }
 
-        System.out.println("Resultado de cada nota individual: " + "\n" + "AC1: " + ac1 + "\n" + "AC2: " + ac2 + "\n" + "AG: " + ag + "\n" + "AF: " + af);
+        System.out.println("Resultado de cada nota individual " + "\n" + "AC1: " + ac1 + "\n" + "AC2: " + ac2 + "\n" + "AG: " + ag + "\n" + "AF: " + af);
 
         scanner.close();
     }
