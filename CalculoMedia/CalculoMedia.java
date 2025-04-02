@@ -5,6 +5,9 @@ public class CalculoMedia {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double ac1, ac2, ag, af, media;
+        
+        System.out.println("A nota minima para a aprovação é 5.0");
+        scanner.nextLine();
 
         System.out.println("Digite a nota da AC1: ");
         ac1 = scanner.nextDouble();
@@ -19,6 +22,7 @@ public class CalculoMedia {
         af = scanner.nextDouble();
 
         media = (ac1 * 0.15) + (ac2 * 0.3) + (ag * 0.10) + (af * 0.45);
+
 
         if (media >= 5) {
             System.out.println("Aprovado com média: " + media);
