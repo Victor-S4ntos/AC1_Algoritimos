@@ -6,7 +6,7 @@ public class CalculoMedia {
         Scanner scanner = new Scanner(System.in);
         double notaMinima, ac1, ac2, ag, af, mediaFinal;
 
-        System.out.println("Digite a nota mínima");
+        System.out.println("Digite a nota mínima: ");
         notaMinima = scanner.nextDouble();
 
         System.out.println("Digite a nota da AC1: ");
