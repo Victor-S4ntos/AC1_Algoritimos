@@ -50,8 +50,10 @@ public class CalculoMedia {
 
         if (media >= notaMinima) {
             System.out.println("Aprovado com média: " + media);
+            System.out.println("Nota minima digitada" + notaMinima);
         } else {
             System.out.println("Reprovado com média: " + media);
+            System.out.println("Nota minima digitada" + notaMinima);
 
         }
 
