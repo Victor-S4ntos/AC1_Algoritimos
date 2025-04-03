@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class CalculoMedia {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        double notaMinima, ac1, ac2, ag, af, media;
+        double notaMinima, ac1, ac2, ag, af, mediaFinal;
 
         System.out.println("Digite a nota mínima");
         notaMinima = scanner.nextDouble();
@@ -46,12 +46,12 @@ public class CalculoMedia {
             return;
         }
 
-        media = (ac1 * 0.15) + (ac2 * 0.30) + (ag * 0.10) + (af * 0.45);
+        mediaFinal = (ac1 * 0.15) + (ac2 * 0.30) + (ag * 0.10) + (af * 0.45);
 
-        if (media >= notaMinima) {
-            System.out.println("Aprovado com média: " + media);
+        if (mediaFinal >= notaMinima) {
+            System.out.println("Aprovado com média: " + mediaFinal);
         } else {
-            System.out.println("Reprovado com média: " + media);
+            System.out.println("Reprovado com média: " + mediaFinal);
         }
         
         System.out.println("Nota minima digitada" + notaMinima);
